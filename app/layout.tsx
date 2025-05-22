@@ -8,9 +8,8 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Trang Sinh Nhật Hài Hước",
-  description: "Một trang web sinh nhật thông minh và hài hước",
-    generator: 'v0.dev'
+  title: "By daomanhtung",
+  
 }
 
 export default function RootLayout({
@@ -21,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="vi" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2RwNWV1cjg4ZXgwOWx1a2FtNnI3MzN1ZXhrY3lrdHpwYzI3cGg3YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/26AHtOSUIDsTJO7cs/giphy.gif" sizes="any" />
         <script dangerouslySetInnerHTML={{ __html: `
           document.addEventListener('DOMContentLoaded', function() {
             // Create audio element
